@@ -33,8 +33,9 @@ All chartS intereact on hover to presenting data.<BR>
 ### testing
 Unit test conducted on time stamp function via Jest.<BR>
 Multiple console logs on firing functions.<BR>
-
-
+<br>
+<br>  
+![mms - snapshot](https://user-images.githubusercontent.com/60255918/181375178-78db3982-f925-4677-8ea4-077b72f79b1b.png)
 
 
 
