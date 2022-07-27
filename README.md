@@ -1,5 +1,6 @@
 # mms
-mms-chart-app
+mms-chart-app<br>
+live link - [https://jeffpwalsh.github.io/mms/]<br>
 ## Overview
 Frontend application that imports a dataset and renders to a dashboard.
 User has configuration options.
@@ -12,7 +13,7 @@ Chart.js<BR>
 Web Storage API | Chrome<BR>
 Jest - Testing<BR>
 ## Application Workflow
-### onload
+### Onload
 GET: Asynchronus fetch request to RESTful API for data. <BR>
 Receive JSON data<BR>
 Map through JSON data<BR>
@@ -20,7 +21,7 @@ Create 3 arrays from oject mapping<BR>
 POST: Data arrays to local web storage API<BR>
 Run config file to save additional default settings to local web storage API<BR>
 Chart function renders chart from data saved in local browser web storage<BR>
-### on user interaction
+### On user interaction
 User can select 3 different charts<BR>
 Bar and Line have same data set - RESTFul API<br>
 Waterfall chart has static data <br>
