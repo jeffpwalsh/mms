@@ -14,23 +14,23 @@ Web Storage API | Chrome<BR>
 Jest - Testing<BR>
 ## Application Workflow
 ### Onload
-GET: Asynchronus fetch request to RESTful API for data. <BR>
+GET: Asynchronous fetch request to RESTful API for data. <BR>
 Receive JSON data<BR>
 Map through JSON data<BR>
-Create 3 arrays from oject mapping<BR>
+Create 3 arrays from object mapping<BR>
 POST: Data arrays to local web storage API<BR>
 Run config file to save additional default settings to local web storage API<BR>
 Chart function renders chart from data saved in local browser web storage<BR>
 ### On user interaction
-User can select 3 different charts<BR>
-Bar and Line have same data set - RESTFul API<br>
+Users can select 3 different charts<BR>
+Bar and Line will have same data set - RESTFul API<br>
 Waterfall chart has static data <br>
 Selecting a chart from the menu will update existing chart<BR>
 Selecting a new background colour will update exsiting chart<BR>
 All values are persisted and saved to local web storage.<BR>
 Reloading of program will load previous user state.<BR>
 Import data button will run getData function and log new time stamp to UI and local webs storage.<BR>
-All chartS intereact on hover to presenting data.<BR>
+All charts interact on hover in order to pres data points.<BR>
 ### testing
 Unit test conducted on time stamp function via Jest.<BR>
 Multiple console logs on firing functions.<BR>
