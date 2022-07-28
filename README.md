@@ -4,12 +4,12 @@ mms-chart-app<br>
  - live link - [https://jeffpwalsh.github.io/mms/]
 
 ## Overview
-Frontend application that imports a dataset and renders to a dashboard.
+Frontend application that imports data and renders to a dashboard.
 User has configuration options.
 ## Tech Stack
 ```
 JavaScript ES6 + Module Exports
-Chart.js
+Chart.js - libarary
 Web Storage API | Chrome
 HTML
 CSS
@@ -20,19 +20,20 @@ Jest - Testing
 ```
 Onload
 ```
-GET: Asynchronous fetch request to RESTful API for data. <BR>
+GET: Asynchronous fetch request for data. <BR>
 Receive JSON data<BR>
-Map through JSON data<BR>
-Create 3 arrays from object mapping<BR>
-POST: Data arrays to local web storage API<BR>
-Run config file to save additional default settings to local web storage API<BR>
-Chart function renders chart from data saved in local browser web storage<BR>
+Map through response/object<BR>
+Create 3 data arrays from object mapping<BR>
+POST: Data arrays to local web storage API as Key Value pairs<BR>
+Config.js file will save any additional default settings to local web storage API in Key Value pairs<BR>
+Chart function renders out chart on retrieval of data from the local browser web storage<BR>
 ```  
 On user interaction
 ```
-Users can select 3 different charts<BR>
-Bar and Line will have same data set - RESTFul API<br>
-Waterfall chart has static data <br>
+Users can select 3 different chart types<BR>
+Bar and Line charts will have same data set<br>
+Waterfall chart has static data to<br>
+Chart legend will change between waterfall and bar/line due to different datasets.
 Selecting a chart from the menu will update existing chart<BR>
 Selecting a new background colour will update exsiting chart<BR>
 All values are persisted and saved to local web storage.<BR>
